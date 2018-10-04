@@ -49,7 +49,7 @@ class NotexOrdersController extends Controller
 
 
 			$transaction = Yii::app()->db->beginTransaction();
-			$model->attributes=$_POST['NotexOrders'];
+			$model->attributes=$_POST['NotexOrders']
 //            echo '<pre>';print_r($model);echo '<pre>';exit();
 
 			$model->entered_on=date('Y-m-d H:i:s');
